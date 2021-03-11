@@ -107,10 +107,6 @@ p {
   color: var(--accent-color);
 }
 
-.contact-link li:last-child {
-  margin-left: 50px;
-}
-
 .current::after {
   content: '';
   position: absolute;
@@ -122,7 +118,11 @@ p {
   background-color: var(--accent-color);
 }
 
-.link-item {
+.contact-link li:last-child {
+  margin-left: 50px;
+}
+
+.contact-link__item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -154,17 +154,17 @@ p {
   color: var(--accent-color);
 }
 
-.link-item:hover,
-.link-item:focus,
+.contact-link__item:hover,
+.contact-link__item:focus,
 .header-nav__item:hover,
 .header-nav__item:focus {
   color: var(--accent-color);
 }
 
-.link-item:hover .button-message,
-.link-item:focus .button-message,
-.link-item:hover .button-phone,
-.link-item:focus .button-phone {
+.contact-link__item:hover .button-message,
+.contact-link__item:focus .button-message,
+.contact-link__item:hover .button-phone,
+.contact-link__item:focus .button-phone {
   fill: var(--accent-color);
   cursor: pointer;
 }
