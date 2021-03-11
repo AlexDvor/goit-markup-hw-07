@@ -55,14 +55,6 @@ p {
   border-bottom: 1px solid rgb(236, 236, 236);
 }
 
-.logo-blue {
-  color: var(--accent-color);
-}
-
-.logo-black {
-  color: var(--black100);
-}
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -72,7 +64,15 @@ p {
   padding-bottom: 25px;
 }
 
-.nav-list,
+.logo__blue {
+  color: var(--accent-color);
+}
+
+.logo__black {
+  color: var(--black100);
+}
+
+.nav-menu,
 .header-list,
 .contact-link {
   display: flex;
