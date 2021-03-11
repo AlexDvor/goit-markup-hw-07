@@ -162,10 +162,20 @@ p {
 
 /*---------- HERO---------- */
 
-.hero {
+.section-hero {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 280px;
+}
+
+.section-hero__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--tertiary-color-text);
 }
 
 .img-hero {
@@ -184,20 +194,7 @@ p {
     url(../images/backgroung.jpg);
 }
 
-.hero h1 {
-  margin: 0;
-}
-
-.title-hero {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--tertiary-color-text);
-}
-
-.btn-hero {
+.section-hero__btn {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -214,8 +211,8 @@ p {
   border-radius: 4px;
 }
 
-.btn-hero:hover,
-.btn-hero:focus {
+.section-hero__btn:hover,
+.section-hero__btn:focus {
   cursor: pointer;
 }
 
