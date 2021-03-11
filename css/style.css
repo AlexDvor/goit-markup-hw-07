@@ -135,14 +135,7 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-message {
-  fill: #757575;
-  margin-right: 10px;
-
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-phone {
+.contact-link__icon {
   fill: #757575;
   margin-right: 10px;
 
@@ -161,10 +154,8 @@ p {
   color: var(--accent-color);
 }
 
-.contact-link__item:hover .button-message,
-.contact-link__item:focus .button-message,
-.contact-link__item:hover .button-phone,
-.contact-link__item:focus .button-phone {
+.contact-link__item:hover .contact-link__icon,
+.contact-link__item:focus .contact-link__icon {
   fill: var(--accent-color);
   cursor: pointer;
 }
