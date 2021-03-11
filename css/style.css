@@ -225,12 +225,6 @@ p {
   padding-bottom: 94px;
 }
 
-.description-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -245,15 +239,21 @@ p {
   overflow: hidden;
 }
 
-.description-list li {
+.section-advantages__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.section-advantages__list li {
   width: 270px;
 }
 
-.description-list li:not(:first-child) {
+.section-advantages__list li:not(:first-child) {
   margin-left: 30px;
 }
 
-.description-list h3 {
+.section-advantages__list h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -263,7 +263,7 @@ p {
   margin-bottom: 10px;
 }
 
-.description-list p {
+.section-advantages__list p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -272,7 +272,7 @@ p {
   margin-bottom: 0px;
 }
 
-.advantages-list {
+.section-advantages__item {
   display: flex;
   align-items: center;
   justify-content: center;
