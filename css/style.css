@@ -178,7 +178,7 @@ p {
   color: var(--tertiary-color-text);
 }
 
-.img-hero {
+.section-hero__img {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
