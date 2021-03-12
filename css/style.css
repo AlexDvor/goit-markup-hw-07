@@ -535,7 +535,7 @@ p {
   color: var(--accent-color);
 }
 
-.box-link p {
+.social-network__text {
   display: flex;
   font-size: 14px;
   font-weight: 700;
@@ -546,17 +546,17 @@ p {
 }
 
 .box,
-.list-footer-link {
+.social-network__list {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
 
-.social-list-footer:not(:last-child) {
+.social-network__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.icon-footer {
+.social-network__link {
   display: flex;
   width: 40px;
   height: 40px;
@@ -569,13 +569,13 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-footer:hover,
-.icon-footer:focus {
+.social-network__link:hover,
+.social-network__link:focus {
   cursor: pointer;
   background-color: var(--accent-color);
 }
 
-.subscription > p {
+.subscription__text {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -584,11 +584,11 @@ p {
   margin-bottom: 20px;
 }
 
-.form-sub {
+.subscription__form {
   display: flex;
 }
 
-.input-sign-up {
+.subscription__input {
   display: flex;
   width: 358px;
   height: 50px;
@@ -599,7 +599,7 @@ p {
   padding-left: 16px;
 }
 
-.btn-subscription {
+.subscription__btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -612,7 +612,7 @@ p {
   padding: 10px 29px;
 }
 
-.btn-subscription span {
+.subscription__subtext {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
@@ -621,7 +621,7 @@ p {
   margin: 0;
 }
 
-.icon-sub {
+.subscription__icon {
   margin-left: 10px;
 }
 
@@ -629,8 +629,8 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.btn-subscription:hover,
-.btn-subscription:focus {
+.subscription__btn:hover,
+.subscription__btn:focus {
   cursor: pointer;
 }
 
