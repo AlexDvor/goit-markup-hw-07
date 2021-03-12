@@ -787,17 +787,17 @@ p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-}
+} */
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.2);
 }
 
-.btn-modal {
+.modal__btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -813,8 +813,8 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-modal:hover,
-.btn-modal:focus {
+.modal__btn:hover,
+.modal__btn:focus {
   fill: var(--accent-color);
   cursor: pointer;
 }
