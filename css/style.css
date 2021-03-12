@@ -832,7 +832,7 @@ p {
   margin-bottom: 12px;
 }
 
-.input-form label {
+.input-form__label {
   display: flex;
   align-items: center;
   font-weight: 400;
@@ -856,7 +856,7 @@ p {
   margin-bottom: 30px;
 }
 
-.input-field {
+.input-form__field {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -867,7 +867,7 @@ p {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-icon {
+.input-form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -877,14 +877,14 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-field:hover,
-.input-field:focus {
+.input-form__field:hover,
+.input-form__field:focus {
   border: 1px solid var(--accent-color);
   cursor: pointer;
 }
 
-.input-field:hover + .input-icon,
-.input-field:focus + .input-icon {
+.input-form__field:hover + .input-form__icon,
+.input-form__field:focus + .input-form__icon {
   fill: var(--accent-color);
   cursor: pointer;
 }
@@ -952,7 +952,7 @@ p {
   justify-content: center;
 }
 
-.input-wrapper {
+.input-form__wrapper {
   position: relative;
 }
 
