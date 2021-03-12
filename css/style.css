@@ -168,13 +168,13 @@ p {
 
 /*---------- HERO---------- */
 
-.section-hero {
+.hero {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 280px;
 }
 
-.section-hero__title {
+.hero__title {
   margin: 0;
   font-weight: 900;
   font-size: 44px;
@@ -184,7 +184,7 @@ p {
   color: var(--tertiary-color-text);
 }
 
-.section-hero__img {
+.hero__img {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -200,7 +200,7 @@ p {
     url(../images/backgroung.jpg);
 }
 
-.section-hero__btn {
+.hero__btn {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -217,8 +217,8 @@ p {
   border-radius: 4px;
 }
 
-.section-hero__btn:hover,
-.section-hero__btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
   cursor: pointer;
 }
 
