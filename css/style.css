@@ -224,7 +224,7 @@ p {
 
 /* ---------- ADVANTAGES----------  */
 
-.section-advantages {
+.advantages {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 94px;
@@ -245,21 +245,21 @@ p {
   overflow: hidden;
 }
 
-.section-advantages__list {
+.advantages__list {
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-.section-advantages__list li {
+.advantages__list li {
   width: 270px;
 }
 
-.section-advantages__list li:not(:first-child) {
+.advantages__list li:not(:first-child) {
   margin-left: 30px;
 }
 
-.section-advantages__list h3 {
+.advantages__subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -269,7 +269,7 @@ p {
   margin-bottom: 10px;
 }
 
-.section-advantages__list p {
+.advantages__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -278,7 +278,7 @@ p {
   margin-bottom: 0px;
 }
 
-.section-advantages__item {
+.advantages__item {
   display: flex;
   align-items: center;
   justify-content: center;
