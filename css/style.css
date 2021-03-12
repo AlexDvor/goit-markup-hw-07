@@ -359,16 +359,16 @@ p {
   background-color: var(--background-btn-portfolio);
 }
 
-.team-list {
-  display: flex;
-  text-align: center;
-}
-
-.title-our-team {
+.out-team__title {
   text-align: center;
   font-size: 36px;
   margin-top: 0px;
   margin-bottom: 50px;
+}
+
+.team-list {
+  display: flex;
+  text-align: center;
 }
 
 .card-team {
