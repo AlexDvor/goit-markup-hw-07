@@ -499,18 +499,19 @@
 
         <div class="input-form">
           <label class="input-form__label" for="comment">Комментарий</label>
-          <textarea class="textarea-form" name="comment" rows="10" placeholder="Введите текст" id="comment"></textarea>
+          <textarea class="input-form__textarea" name="comment" rows="10" placeholder="Введите текст"
+            id="comment"></textarea>
         </div>
 
-        <div class="input-form checkbox">
+        <div class="checkbox input-form ">
           <label class="input-form__label">
-            <input class="checkbox-input visually-hidden" type="checkbox" name="confirmation" id="confirmation" />
+            <input class="checkbox__input visually-hidden" type="checkbox" name="confirmation" id="confirmation" />
 
-            <svg class="check-box-icon" width="16px" height="15px">
+            <svg class="checkbox__icon" width="16px" height="15px">
               <use href="./images/symbol-defs.svg#checkbox"></use>
             </svg>
-            <span>Соглашаюсь с рассылкой и принимаю
-              <a href="#">Условия договора</a></span>
+            <span class="checkbox__text">Соглашаюсь с рассылкой и принимаю
+              <a class="input-form__link" href="#">Условия договора</a></span>
           </label>
         </div>
 
