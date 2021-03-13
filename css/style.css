@@ -354,7 +354,7 @@ p {
 /*---------- OUR TEAM----------  */
 
 .our-team {
-  margin-bottom: 0px;
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--background-btn-portfolio);
 }
