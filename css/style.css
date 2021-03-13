@@ -14,10 +14,12 @@
   --backdrop-background-color: rgba(0, 0, 0, 0.2);
   --background-our-work: rgba(47, 48, 58, 0.8);
   --backdrop-portfolio-color: rgba(33, 150, 243, 0.9);
+  --primary-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font-family);
 }
 
 ul {
@@ -56,7 +58,7 @@ p {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -201,7 +203,7 @@ p {
 }
 
 .hero__btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -670,7 +672,7 @@ p {
 }
 
 .buttons-list__btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
