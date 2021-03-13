@@ -381,11 +381,11 @@ p {
   margin-left: 30px;
 }
 
-.team-name {
+.team-list__name {
   background-color: var(--tertiary-color-text);
 }
 
-.our-team h3 {
+.team-list__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -395,7 +395,7 @@ p {
   margin: 0px;
 }
 
-.our-team p {
+.team-list__subtitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
