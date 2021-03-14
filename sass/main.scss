@@ -2,5 +2,13 @@
 @import 'utils/common';
 @import 'utils/variables';
 @import 'utils/container';
+@import 'utils/mixin';
+// Header
 @import 'components/header';
 @import 'components/logo';
+@import 'components/nav-menu';
+@import 'components/header-nav';
+@import 'components/current-footer-menu';
+@import 'components/contact-link';
+
+
