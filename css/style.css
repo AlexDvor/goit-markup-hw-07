@@ -239,7 +239,7 @@
 } */
 
 /* ---------- OUR WORK ---------- */
-.our-work {
+/* .our-work {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -256,9 +256,9 @@
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 50px;
-}
+} */
 
-.our-work ul {
+/* .our-work ul {
   margin: 0px;
   padding: 0px;
 }
@@ -275,9 +275,9 @@
 
 .list-work li:last-child {
   margin-right: 0px;
-}
+} */
 
-.list-work__thumb {
+/* .list-work__thumb {
   position: relative;
 }
 
@@ -299,7 +299,7 @@
   text-transform: uppercase;
   padding-top: 27px;
   padding-bottom: 27px;
-}
+} */
 
 /*---------- OUR TEAM----------  */
 
