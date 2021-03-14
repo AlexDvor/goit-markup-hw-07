@@ -976,17 +976,10 @@ p {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cards__link:hover,
-.cards__link:focus {
+.cards__link:hover, .cards__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-}
-
-.cards__link:hover .cards-content__backdrop,
-.cards__link:focus .cards-content__backdrop {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
 }
 
 .cards-content__box {
@@ -1030,7 +1023,13 @@ p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cards-content__backdrop p {
+.cards__link:hover .cards-content__backdrop,
+.cards__link:focus .cards-content__backdrop {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.cards-content__text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
