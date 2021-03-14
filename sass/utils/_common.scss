@@ -23,3 +23,8 @@ p {
   margin: 0;
   padding: 0;
 }
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
+}
