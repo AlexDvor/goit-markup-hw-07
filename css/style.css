@@ -174,7 +174,7 @@
 
 /* ---------- ADVANTAGES----------  */
 
-.advantages {
+/* .advantages {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 94px;
@@ -193,9 +193,9 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.advantages__list {
+/* .advantages__list {
   display: flex;
   margin: 0;
   padding: 0;
@@ -236,7 +236,7 @@
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--background-btn-portfolio);
-}
+} */
 
 /* ---------- OUR WORK ---------- */
 .our-work {
