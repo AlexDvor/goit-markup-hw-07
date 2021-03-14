@@ -706,7 +706,7 @@
 
 /*---------- MODAL WINDOWS----------  */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -737,9 +737,9 @@
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-}
+} */
 
-.backdrop.is-hidden .modal {
+/* .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.2);
 }
 
@@ -763,7 +763,7 @@
 .modal__btn:focus {
   fill: var(--accent-color);
   cursor: pointer;
-}
+} */
 
 .form-sign {
   display: flex;
