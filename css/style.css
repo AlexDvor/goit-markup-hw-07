@@ -98,7 +98,7 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
-.header-nav__item:hover,
+/* .header-nav__item:hover,
 .header-nav__item:focus {
   color: var(--accent-color);
 }
@@ -108,7 +108,7 @@
 .header-nav__item:hover,
 .header-nav__item:focus {
   color: var(--accent-color);
-}
+} */
 
 /* .contact-link__link:hover .contact-link__icon,
 .contact-link__link:focus .contact-link__icon {
