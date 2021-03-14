@@ -299,11 +299,11 @@ p {
   color: var(--accent-color);
 }
 
-.current {
+.header-nav__link--current {
   color: var(--accent-color);
 }
 
-.current::after {
+.header-nav__link--current::after {
   content: '';
   position: absolute;
   width: 100%;

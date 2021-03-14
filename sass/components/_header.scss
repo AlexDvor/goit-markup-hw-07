@@ -3,6 +3,7 @@
 }
 
 .header__container {
-@include centeredFlex (space-between);
+@include centeredFlex ();
+justify-content: space-between;
 
 }
