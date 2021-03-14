@@ -303,7 +303,7 @@
 
 /*---------- OUR TEAM----------  */
 
-.our-team {
+/* .our-team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--background-btn-portfolio);
@@ -362,13 +362,9 @@
   justify-content: space-between;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--tertiary-color-text);
-}
-
-/* .team-social-link .teateam-social-link__contact {
-  box-shadow: none;
 } */
 
-.team-social-link__contact {
+/* .team-social-link__contact {
   display: flex;
   width: 40px;
   height: 40px;
@@ -388,7 +384,7 @@
   cursor: pointer;
   border-radius: 50%;
   background-color: var(--accent-color);
-}
+} */
 
 /*---------- OUR CLIENTS----------  */
 
