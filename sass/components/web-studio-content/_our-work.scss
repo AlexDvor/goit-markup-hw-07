@@ -35,6 +35,8 @@
 }
 
 .list-work__backdrop {
+  display: flex;
+  justify-content: center;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -44,12 +46,13 @@
 }
 
 .list-work__text {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--tertiary-color-text);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  
 }
