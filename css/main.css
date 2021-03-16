@@ -683,6 +683,8 @@ p {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
+  margin-bottom: 50px;
+  margin-top: 0;
   color: var(--primary-color-text);
 }
 
